@@ -8,7 +8,7 @@ services:
     dockerContext: .
     dockerfilePath: ./Dockerfile
     buildCommand: ""
-    startCommand: php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=8000
+    startCommand: php artisan migrate --force && php artisan serve --host=dpg-d0mi136mcj7s739b1lj0-a --port=5432
     envVars:
       - key: APP_ENV
         value: production
@@ -24,8 +24,8 @@ services:
       - key: DB_PORT
         value: "5432"
       - key: DB_DATABASE
-        value: hotel_tnuk
+        value: bread_db_dlbl
       - key: DB_USERNAME
-        value: hotel_tnuk_user
+        value: bread_man
       - key: DB_PASSWORD
-        value: LIUy5bJZPQbWUxtX8g4F2zDJeRdkgGcGrq
+        value: LDcRqNpStaK1ptBOi5vcyZTFRnWs3FyS
